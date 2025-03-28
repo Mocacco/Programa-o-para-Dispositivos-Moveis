@@ -7,6 +7,16 @@ export default function App()
 {
   const[InputMetaText, setInputMetatext] = useState('');
   const[metas, setMetas] = useState([]);   
+
+  function metaIputHandler(inputText)
+  {
+    setInputMetatext(inputText)
+  };
+
+  function adicionarMetaHandler()
+  { 
+    setMetas([...metas, InputMetaText]);
+  }
   return (
     <View style={styles.main_container}>
     <View style={{flexDirection: 'row', justifyContent: 'space-between', flex: 1}}>
