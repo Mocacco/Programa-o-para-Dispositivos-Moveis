@@ -1,9 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
+import { use, useState } from 'react';
 import { StyleSheet, Text, TextInput, View, button } from 'react-native';
 import { rotulo_input_meta,rotulo_btn_cadastro_meta,rotulo_lista_metas } from './mensagens';
 
 export default function App() 
 {
+  const[InputMetaText, setInputMetatext] = useState('');
+  const[metas, setMetas] = useState([]);   
   return (
     <View style={styles.main_container}>
     <View style={{flexDirection: 'row', justifyContent: 'space-between', flex: 1}}>
