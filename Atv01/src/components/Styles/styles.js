@@ -38,7 +38,7 @@ export const styles = StyleSheet.create({
   button: {
     backgroundColor: '#a9c9ff',
     height: 40,
-    width: 250,
+    width: 240,
     justifyContent: 'center',
     alignSelf: 'flex-end',
     alignItems: 'center',
