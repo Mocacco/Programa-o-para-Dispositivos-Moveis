@@ -14,7 +14,7 @@ const UserForm = ({ name, phone, onNameChange, onPhoneChange, onRegister }) => {
           style={styles.input}
           value={name}
           onChangeText={onNameChange}
-          placeholder="Digite o nome"
+
         />
       </View>
       
@@ -24,7 +24,6 @@ const UserForm = ({ name, phone, onNameChange, onPhoneChange, onRegister }) => {
           style={styles.input}
           value={phone}
           onChangeText={onPhoneChange}
-          placeholder="Digite o telefone"
           keyboardType="phone-pad"
         />
       </View>
@@ -32,6 +31,9 @@ const UserForm = ({ name, phone, onNameChange, onPhoneChange, onRegister }) => {
       <TouchableOpacity style={styles.button} onPress={onRegister}>
         <Text style={styles.buttonText}>{labels.register}</Text>
       </TouchableOpacity>
+
+      <View style={styles.line} />
+
     </View>
   );
 };

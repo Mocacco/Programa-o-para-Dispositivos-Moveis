@@ -6,7 +6,6 @@ import { styles } from './Styles/styles';
 const UserList = ({ users }) => {
   return (
     <View style={{ marginTop: 20 }}>
-      <Text style={[styles.title, { fontSize: 20 }]}>{labels.userListTitle}</Text>
       
       <ScrollView>
         {users.map((user, index) => (

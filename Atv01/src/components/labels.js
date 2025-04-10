@@ -3,5 +3,4 @@ export const labels = {
     name: 'Nome:',
     phone: 'Telefone:',
     register: 'Cadastrar',
-    userListTitle: 'Usuários Cadastrados'
   };
