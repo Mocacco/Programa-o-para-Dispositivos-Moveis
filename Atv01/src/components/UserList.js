@@ -6,7 +6,12 @@ import { styles } from './Styles/styles';
 const UserList = ({ users }) => {
   return (
     <View style={{ marginTop: 20 }}>
+      <View style={styles.inputContainerList}>
+        <Text style={styles.labelList}>Nome</Text>
+        <Text style={styles.labelList}>Telefone</Text>
+      </View>
       
+
       <ScrollView>
         {users.map((user, index) => (
           <View key={index} style={styles.userCard}>

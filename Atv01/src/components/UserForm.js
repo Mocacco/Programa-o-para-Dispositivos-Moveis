@@ -14,7 +14,6 @@ const UserForm = ({ name, phone, onNameChange, onPhoneChange, onRegister }) => {
           style={styles.input}
           value={name}
           onChangeText={onNameChange}
-
         />
       </View>
       
