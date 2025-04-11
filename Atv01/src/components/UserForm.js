@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, TextInput, Text, TouchableOpacity } from 'react-native';
 import { labels } from './labels';
-import { styles } from './Styles/styles';
+import { styles } from '../Styles/styles';
 
 const UserForm = ({ name, phone, onNameChange, onPhoneChange, onRegister }) => {
   return (

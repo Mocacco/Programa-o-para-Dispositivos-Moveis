@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, ScrollView } from 'react-native';
 import { labels } from './labels';
-import { styles } from './Styles/styles';
+import { styles } from '../Styles/styles';
 
 const UserList = ({ users }) => {
   return (
